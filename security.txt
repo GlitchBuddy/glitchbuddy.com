@@ -1,0 +1,5 @@
+This web site is hosted by Neocities (https://neocities.org).
+If you have found a vulnerability, check if it's on their side first and not mine.
+You can contact Neocities about security vulnerabilities using their contact form: https://neocities.org/contact
+
+If you have found a vulnerability and it really is on my side, send me an email at glitch@glitchbuddy.com and I will take a look as soon as I can.
