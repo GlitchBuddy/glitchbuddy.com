@@ -1,5 +1,7 @@
-/* This file is a part of GlitchBuddy.com */
-/* (C) GlitchBuddy */
+/*
+This file is a part of GlitchBuddy.com
+(C) GlitchBuddy
+*/
 
 @font-face {
   font-family: "GlitchPixel";
@@ -14,7 +16,7 @@
 body {
   background-color: #202020;
   color: #00c9fd;
-  font-family: GlitchPixelMini, Fallback, sans-serif;
+  font-family: GlitchPixelMini, sans-serif;
   margin-left: 100px;
   margin-right: 250px;
   margin-top: 100px;
@@ -22,25 +24,23 @@ body {
   font-size: 32px;
 }
 
-@media screen and (max-width: 800px) { /* for mobile devices in portrait mode */
+h1 {
+  font-family: GlitchPixel, sans-serif;
+}
+
+footer {
+  font-size: 24px;
+}
+
+a:link {color: #ff9900;}
+a:visited {color: #ca87ff;}
+
+/* Additional rules for mobile devices */
+@media screen and (max-width: 800px) {
+
   body {
     margin: 10px;
     margin-top: 30px;
   }
-}
 
-#footer {
-  font-size: 24px;
-}
-
-h1 {
-  font-family: GlitchPixel, Fallback, sans-serif;
-}
-
-a:link {
-  color: #ff9900;
-}
-
-a:visited {
-  color: #ca87ff
 }
