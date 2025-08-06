@@ -24,6 +24,18 @@ body {
   font-size: 32px;
 }
 
+#logo {max-width: 100%;}
+
+nav a {
+  color: #b9b9b9;
+  padding-left: 0px;
+  padding-right: 16px;
+  text-decoration: none;
+}
+
+nav a:visited {color: #b9b9b9;}
+nav a:hover {color: #878787;}
+
 h1 {
   font-family: GlitchPixel, sans-serif;
 }
