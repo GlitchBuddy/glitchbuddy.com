@@ -22,7 +22,7 @@ body {
   margin-bottom: 50px;
   font-size: 32px;
 }
-#greytext {color: #b9b9b9;}
+.greytext {color: #b9b9b9;}
 
 h1 {font-family: GlitchPixel, sans-serif;}
 
