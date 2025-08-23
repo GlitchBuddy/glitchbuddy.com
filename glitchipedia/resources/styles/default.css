@@ -1,0 +1,55 @@
+/* This file is a part of the Glitchipedia
+    (C) GlitchBuddy */
+
+/* "Pixelated Elegance" by GGBotNet
+    Released under the public domain (CC0 1.0 Universal) 
+    https://ggbot.itch.io/pixelated-elegance-font */
+@font-face {
+    font-family: "PixelatedElegance";
+    src: url("/resources/fonts/pixelated_elegance.woff2") format("woff2");
+}
+
+body {
+  background-color: #202020;
+  color: #00c9fd;
+  font-family: PixelatedElegance, sans-serif;
+  margin-left: 100px;
+  margin-right: 250px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+.smalltext {font-size: 20px;}
+
+a:link {color: #ff9900;}
+a:visited {color: #ca87ff;}
+
+nav a:link {
+  color: #b9b9b9;
+  padding-left: 0px;
+  padding-right: 16px;
+  text-decoration: none;
+}
+nav a:visited {color: #b9b9b9;}
+nav a:hover {color: #878787;}
+
+.main_site:link {color: #00c9fd;}
+.main_site:visited {color: #00c9fd;}
+.main_site:hover {color: #009fc6;}
+
+/* Replacement rules for mobile devices */
+@media screen and (max-width: 800px) {
+
+  body {
+    margin: 10px;
+    margin-top: 30px;
+  }
+
+  img {
+    float: none;
+    height: 100%;
+    width: 100%;
+  }
+
+}

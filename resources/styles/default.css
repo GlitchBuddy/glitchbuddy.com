@@ -40,9 +40,9 @@ nav a:link {
 nav a:visited {color: #b9b9b9;}
 nav a:hover {color: #878787;}
 
-#pedia a:link {color: #00c9fd;}
-#pedia a:visited {color: #00c9fd;}
-#pedia a:hover {color: #009fc6;}
+.glitchipedia:link {color: #00c9fd;}
+.glitchipedia:visited {color: #00c9fd;}
+.glitchipedia:hover {color: #009fc6;}
 
 /* Replacement rules for mobile devices */
 @media screen and (max-width: 800px) {
@@ -53,9 +53,9 @@ nav a:hover {color: #878787;}
   }
 
   img {
-    float: none !important;
-    height: 100% !important;
-    width: 100% !important;
+    float: none;
+    height: 100%;
+    width: 100%;
   }
 
 }
